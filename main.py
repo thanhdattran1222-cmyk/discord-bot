@@ -206,14 +206,4 @@ async def check_blacklist(interaction: discord.Interaction):
                 else: current_msg += line + "\n"
             if current_msg: await interaction.followup.send(current_msg)
         else: await interaction.followup.send(full_message)
-
 if TOKEN: bot.run(TOKEN)
-
-
-
-
-
-
-
-
-
